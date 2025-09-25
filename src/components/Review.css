@@ -1,0 +1,72 @@
+
+
+  .review-form input,
+  .review-form textarea,
+  .review-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .review-form button {
+    background-color: #d62828;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .review-form button:hover {
+    background-color: #a22020;
+  }
+  
+  .reviews-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .review-card {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border: 1px solid #f9c800;
+    box-shadow: 0 4px 12px #f9c800 ;
+    border-radius: 12px;
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    background: #d62828;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stars {
+    color: #ffbc00;
+    font-size: 18px;
+  }
+  
+  .star {
+    opacity: 0.3;
+  }
+  
+  .star.filled {
+    opacity: 1;
+  }
+  

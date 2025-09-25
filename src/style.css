@@ -280,6 +280,27 @@ a{
     text-decoration: underline;
   }
   
+
+  .round-button{
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .link-block {
+    transition: font-size 0.3s ease, text-decoration 0.3s ease;
+  }
+  .link-block:hover{
+    font-size: 24px;
+    text-decoration: underline;
+  }
   
 
   /*=========================================
@@ -520,6 +541,129 @@ a{
   .footer-country span{
     color: #ccc;
     font-size: 16px;
+  }
+
+/*===========================================
+                   HELP PAGE
+  ===========================================*/
+  .headerHelp-container{
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    background-color: rgb(255, 213, 2);;
+    padding: 10px 30px;
+  }
+  .img-bottom-container{
+    position: absolute;
+    left: 50px;
+    bottom: -70px;
+  }
+.icon-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 200px;
+  gap: 50px;
+  margin-left: 30%;
+}
+.icon-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  /*===========================================
+                    FEEDBACKfORM
+  ===========================================*/
+
+  .feedback-form-container,
+  .review-form{
+    background-color: #f9c800;
+    padding: 40px;
+    min-width: 600px;
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .reviews-component{
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .feedback-form-container h2 {
+    text-align: center;
+    color: #d62828;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .buttonForm {
+    background-color: #d62828;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  buttonForm:hover {
+    background-color: #c41414;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+  }
+  
+  .success-message {
+    background-color: #ffffff;
+    color: #4caf50;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+
+  .reviews-component{
+    display: flex;
+    flex-direction: column;
   }
   
   

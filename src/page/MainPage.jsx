@@ -25,7 +25,7 @@ const MainPage = () => {
   return (
    
         <div>
-          <Header/>
+           <Header />
           <Banner 
             img ={flowersImage} 
             title = "Forever flowers"
